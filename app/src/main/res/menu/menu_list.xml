@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/all_star"
+        android:icon="@drawable/all"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="All"/>
+
+    <item
+        android:id="@+id/stared"
+        android:icon="@drawable/star_clicked"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="Star"/>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/more"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="More">
+
+        <menu>
+
+            <item
+                android:id="@+id/all"
+                android:title="All"
+                android:orderInCategory="3">
+
+            </item>
+
+            <item
+                android:id="@+id/read"
+                android:title="Read"
+                android:orderInCategory="4">
+
+            </item>
+
+            <item
+                android:id="@+id/unread"
+                android:title="Unread"
+                android:orderInCategory="5">
+
+            </item>
+        </menu>
+
+    </item>
+
+
+</menu>

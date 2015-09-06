@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dell/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-4e5d4fdef22141a1c4e08a5b71f4f175e9cf7250.jar" />
+    </item>
+    <item
+        jar="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/classes-7da5411f28bf9c222aca23a78838b4858a4c758b.jar" />
+    </item>
+    <item
+        jar="/home/dell/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-ed24ac6abd2cf5fba5b0d788a9014f18ee499563.jar" />
+    </item>
+    <item
+        jar="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/classes-a0a2c7c6c356ec94dd35d77fea3f49bfb2e4b563.jar" />
+    </item>
+    <item
+        jar="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/classes-b252ab4b52639519ff07a599dc5c5efb712b2c2b.jar" />
+    </item>
+    <item
+        jar="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/dell/temp/Work_Android/TheLadies/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-0e855821d8b4e652df7947235243898ed6cfc853.jar" />
+    </item>
+
+</items>

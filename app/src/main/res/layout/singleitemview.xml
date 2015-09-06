@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:id="@+id/singleitemview_layout">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#ff7f2a"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/img_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:paddingBottom="7dp">
+
+            <ImageView
+                android:id="@+id/field_image"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentRight="true"
+                android:background="#ff7f2a"
+                android:padding="1dp"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:lineSpacingExtra="6dp"
+                android:paddingBottom="7dp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/createddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingBottom="7dp"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/createddate"
+                android:textSize="15dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>

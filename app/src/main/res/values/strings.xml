@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"8EGGS"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="titlelabel">"Title: "</string>
+    <string name="bodylabel">"Body : "</string>
+    <string name="createddatelabel">"Created Date : "</string>
+    <string name="facebook_app_id">"1016119398428426"</string>
+
+</resources>

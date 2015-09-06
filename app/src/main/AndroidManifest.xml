@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hnttechs.www.theladies"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/egg_logo"
+        android:label="8EGGS"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name=".NetworkChangeReceiver"
+            android:process=":attachServiceBackground">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Splash_Activity"
+            android:label="8EGGS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".ListViewMain"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".SingleItemView"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".SingleItemView_tarot"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".SingleItemView_cartoon"
+            android:label="@string/app_name"></activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.SEND" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <data android:mimeType="text/plain" />
+        </intent-filter>
+
+        <service android:name=".NotificationAlert"></service>
+
+        <activity
+            android:name=".AboutUs_Activity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>
